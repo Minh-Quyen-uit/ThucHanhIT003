@@ -1,0 +1,48 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\code\\C\u002B\u002B\\IT003\\OnTapGiaiThuat\\InsertionSort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F42CC4F-F27E-4542-A060-7FA675F1F833}|..\\ArrayList\\ArrayList.vcxproj|D:\\code\\C\u002B\u002B\\IT003\\OnTapGiaiThuat\\ArrayList\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "D:\\code\\C\u002B\u002B\\IT003\\OnTapGiaiThuat\\ArrayList\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\ArrayList\\Source.cpp",
+              "ToolTip": "D:\\code\\C\u002B\u002B\\IT003\\OnTapGiaiThuat\\ArrayList\\Source.cpp",
+              "RelativeToolTip": "..\\ArrayList\\Source.cpp",
+              "ViewState": "AgIAAFQCAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-29T02:26:56.682Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
