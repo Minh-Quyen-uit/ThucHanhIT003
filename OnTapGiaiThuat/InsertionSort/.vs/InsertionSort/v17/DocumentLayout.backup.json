@@ -4,6 +4,9 @@
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{2F42CC4F-F27E-4542-A060-7FA675F1F833}|..\\ArrayList\\ArrayList.vcxproj|D:\\code\\C\u002B\u002B\\IT003\\OnTapGiaiThuat\\ArrayList\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE6F816F-F88E-4123-A945-AE9EB5A40DA2}|..\\DoThi\\DoThi.vcxproj|D:\\code\\C\u002B\u002B\\IT003\\OnTapGiaiThuat\\DoThi\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,9 +38,22 @@
               "RelativeDocumentMoniker": "..\\ArrayList\\Source.cpp",
               "ToolTip": "D:\\code\\C\u002B\u002B\\IT003\\OnTapGiaiThuat\\ArrayList\\Source.cpp",
               "RelativeToolTip": "..\\ArrayList\\Source.cpp",
-              "ViewState": "AgIAAFQCAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKsDAAAAAAAAAAAAwMEDAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-29T02:26:56.682Z",
+              "WhenOpened": "2025-01-02T14:05:47.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "D:\\code\\C\u002B\u002B\\IT003\\OnTapGiaiThuat\\DoThi\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\DoThi\\Source.cpp",
+              "ToolTip": "D:\\code\\C\u002B\u002B\\IT003\\OnTapGiaiThuat\\DoThi\\Source.cpp",
+              "RelativeToolTip": "..\\DoThi\\Source.cpp",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAkwHoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-02T07:22:56.678Z",
               "EditorCaption": ""
             }
           ]

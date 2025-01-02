@@ -1,4 +1,6 @@
 ﻿#include <iostream>
+#include <queue>
+#include <stack>
 using namespace std;
 
 const int MAX = 50; //giới hạn 10 phần tử
@@ -826,6 +828,24 @@ void NLRBinaryTree(BinaryTree Root)
 	}
 }
 
+void NLRBinaryTreeWithStack(TNode* root)
+{
+	if (!root)
+		return;
+	stack<TNode*> st;
+	st.push(root);
+	while (!st.empty())
+	{
+		TNode* p = st.top();
+		st.pop();
+		cout << p->data << " ";
+		if (p->TNRight)
+			st.push(p->TNRight);
+		if (p->TNLeft)
+			st.push(p->TNLeft);
+	}
+}
+
 void LNRBinaryTree(BinaryTree Root)
 {
 	if (Root != NULL)
@@ -833,6 +853,26 @@ void LNRBinaryTree(BinaryTree Root)
 		LNRBinaryTree(Root->TNLeft);
 		cout << Root->data << " ";
 		LNRBinaryTree(Root->TNRight);
+	}
+}
+
+void LNRBinaryTreeWithStack(TNode* root)
+{
+	if (!root)
+		return;
+	stack<TNode*> st;
+	TNode* p = root;
+	while (p || !st.empty())
+	{
+		while (p)
+		{
+			st.push(p);
+			p = p->TNLeft;
+		}
+		p = st.top();
+		st.pop();
+		cout << p->data << " ";
+		p = p->TNRight;
 	}
 }
 
@@ -844,6 +884,50 @@ void LRNBinaryTree(BinaryTree Root)
 		LRNBinaryTree(Root->TNRight);
 		cout << Root->data << " ";
 	}
+}
+
+void LRNBinaryTreeWithStack(TNode* root)
+{
+	if (!root)
+		return;
+	stack<TNode*> st1, st2;
+	st1.push(root);
+	while (!st1.empty())
+	{
+		TNode* p = st1.top();
+		st1.pop();
+		st2.push(p);
+		if (p->TNLeft)
+			st1.push(p->TNLeft);
+		if (p->TNRight)
+			st1.push(p->TNRight);
+	}
+
+	while (!st2.empty())
+	{
+		cout << st2.top()->data << " ";
+		st2.pop();
+	}
+
+}
+
+void BFS(TNode* root)
+{
+	if (!root)
+		return;
+	queue<TNode*> q;
+	q.push(root);
+	while (!q.empty())
+	{	
+		TNode* current = q.front();
+		q.pop();
+		cout << current->data << " ";
+		if (current->TNLeft)
+			q.push(current->TNLeft);
+		if (current->TNRight)
+			q.push(current->TNRight);
+	}
+	cout << "\n";
 }
 
 #pragma endregion
@@ -873,9 +957,10 @@ void printBinaryTree(BinaryTree T)
 	cin >> n;
 	switch (n)
 	{
-		case 1: NLRBinaryTree(T); break;
-		case 2: LNRBinaryTree(T); break;
-		case 3: LRNBinaryTree(T); break;
+		case 1: NLRBinaryTreeWithStack(T); break;
+		case 2: LNRBinaryTreeWithStack(T); break;
+		case 3: LRNBinaryTreeWithStack(T); break;
+		case 4: BFS(T); break;
 		default:
 			break;
 	}
@@ -1336,6 +1421,9 @@ void inputHS(HashTable& HT)
 
 int main() 
 {
-
+	BinaryTree tree;
+	createBinaryTree(tree);
+	inputBinaryTree(tree);
+	printBinaryTree(tree);
 	return 1;
 }

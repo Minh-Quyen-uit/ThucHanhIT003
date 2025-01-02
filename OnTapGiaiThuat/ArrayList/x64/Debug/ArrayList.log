@@ -1,2 +1,10 @@
 ﻿  Source.cpp
+D:\code\C++\IT003\OnTapGiaiThuat\ArrayList\Source.cpp(17,16): warning C4091: 'typedef ': ignored on left of 'Node' when no variable is declared
+D:\code\C++\IT003\OnTapGiaiThuat\ArrayList\Source.cpp(23,16): warning C4091: 'typedef ': ignored on left of 'List' when no variable is declared
+D:\code\C++\IT003\OnTapGiaiThuat\ArrayList\Source.cpp(256,16): warning C4091: 'typedef ': ignored on left of 'DNode' when no variable is declared
+D:\code\C++\IT003\OnTapGiaiThuat\ArrayList\Source.cpp(263,16): warning C4091: 'typedef ': ignored on left of 'DList' when no variable is declared
+D:\code\C++\IT003\OnTapGiaiThuat\ArrayList\Source.cpp(512,16): warning C4091: 'typedef ': ignored on left of 'Stack' when no variable is declared
+D:\code\C++\IT003\OnTapGiaiThuat\ArrayList\Source.cpp(603,16): warning C4091: 'typedef ': ignored on left of 'Queue' when no variable is declared
+D:\code\C++\IT003\OnTapGiaiThuat\ArrayList\Source.cpp(689,16): warning C4091: 'typedef ': ignored on left of 'TNode' when no variable is declared
+D:\code\C++\IT003\OnTapGiaiThuat\ArrayList\Source.cpp(989,16): warning C4091: 'typedef ': ignored on left of 'AVLNode' when no variable is declared
   ArrayList.vcxproj -> D:\code\C++\IT003\OnTapGiaiThuat\InsertionSort\x64\Debug\ArrayList.exe
